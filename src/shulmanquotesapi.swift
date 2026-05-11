@@ -20,7 +20,7 @@ extension URLSession {
     }
 }
 
-// What an irony: I created this API and I am writing a wrapper for it.
+// What an irony: I created this API and I am writing a wrapper for it. LMAO
 public class Shulmanquotesapi{
     private let api = "https://shulmanquotes.vercel.app"
     private var headers: [String: String]
