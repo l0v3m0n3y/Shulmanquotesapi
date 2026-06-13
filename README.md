@@ -7,8 +7,8 @@ import shulmanquotesapi
 let client = Shulmanquotesapi()
 
 do {
-    let api_info = try await client.get_api_info()
-    print(api_info)
+    let apiInfo = try await client.getApiInfo()
+    print(apiInfo)
 } catch {
     print("Error: \(error)")
 }
