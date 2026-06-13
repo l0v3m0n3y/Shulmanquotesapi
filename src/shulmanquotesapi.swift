@@ -51,7 +51,7 @@ public class Shulmanquotesapi{
     }
 
     public func getQuoteById(quoteId: Int) async throws -> Any {
-        let urlString = "\(api)/quote/\(quote_id)"
+        let urlString = "\(api)/quote/\(quoteId)"
         guard let url = URL(string: urlString) else {
             throw NSError(domain: "Invalid URL", code: -1)
         }
